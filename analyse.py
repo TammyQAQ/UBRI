@@ -4,12 +4,12 @@ import pandas as pd
 file_path = 'data/matrix.xlsx'
 df = pd.read_excel(file_path)
 
-# Function to extract paper numbers and filter those greater than 429
+# Function to extract paper numbers and filter those greater than 428
 def extract_and_filter_papers(paper_str):
     if pd.isna(paper_str) or not isinstance(paper_str, str):
         return []
     papers = [int(p.strip()) for p in paper_str.split(',') if p.strip().isdigit()]
-    return [p for p in papers if p > 429]
+    return [p for p in papers if p > 428]
 
 # Creating dictionaries to hold the results
 theme_papers = {}
@@ -32,10 +32,11 @@ for index, row in df.iterrows():
 theme_paper_counts = {theme: len(set(papers)) for theme, papers in theme_papers.items()}
 blockchain_paper_counts = {blockchain: len(set(papers)) for blockchain, papers in blockchain_papers.items()}
 
-# Display the results
+# Convert results to DataFrames for better readability
 theme_counts_df = pd.DataFrame(list(theme_paper_counts.items()), columns=['Theme', 'Count'])
 blockchain_counts_df = pd.DataFrame(list(blockchain_paper_counts.items()), columns=['Blockchain', 'Count'])
 
+# Display the results
 print("Theme Paper Counts:")
 print(theme_counts_df)
 print("\nBlockchain Paper Counts:")
