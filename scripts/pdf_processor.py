@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 import PyPDF2
 import pdfplumber
+from pymongo import MongoClient
 
 
 logger = logging.getLogger(__name__)
@@ -226,3 +227,10 @@ class PDFProcessor:
 
 # Global processor instance
 pdf_processor = PDFProcessor() 
+
+client = MongoClient("mongodb+srv://yitianw:2T9KEjQqvMBSZ68Y@cluster0.jvwt789.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db = client["UBRI_Publication"]
+collection = db["Papers"]
+result = collection.insert_one({"test": "hello"})
+print("Inserted:", result.inserted_id)
+print(list(collection.find())) 
