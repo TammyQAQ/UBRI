@@ -1,0 +1,985 @@
+{
+  "summary": {
+    "total_papers_processed": 50,
+    "blockchain_related_papers": 44,
+    "not_blockchain_papers": 6,
+    "classification_timestamp": "2025-08-05T15:07:59.157729",
+    "categories_used": [
+      "DeFi (Decentralized Finance)",
+      "Cryptocurrency Economics & Market Analysis",
+      "Stablecoins & CBDCs",
+      "RWA (Real World Assets)",
+      "Smart Contract Security & Vulnerabilities",
+      "Consensus Mechanisms & Protocols",
+      "Zero-Knowledge Proofs & Privacy",
+      "Scalability & Performance Optimization",
+      "Cross-Chain & Interoperability",
+      "Network Analysis & Graph Theory",
+      "Game Theory & Mechanism Design",
+      "Regulation & Legal Analysis",
+      "Security & Cryptography",
+      "Energy & Sustainability",
+      "Healthcare & Digital Health",
+      "Supply Chain & Logistics",
+      "Governance & DAOs",
+      "FinTech & Traditional Finance",
+      "Machine Learning & AI Applications",
+      "IoT & Edge Computing",
+      "Metaverse & Virtual Reality",
+      "Digital Identity & Authentication",
+      "Tokenomics & Token Design",
+      "Blockchain Infrastructure & Development",
+      "Academic Research & Methodology"
+    ],
+    "category_distribution": {
+      "RWA (Real World Assets)": 6,
+      "Governance & DAOs": 8,
+      "Supply Chain & Logistics": 9,
+      "Cryptocurrency Economics & Market Analysis": 17,
+      "Regulation & Legal Analysis": 12,
+      "DeFi (Decentralized Finance)": 11,
+      "Tokenomics & Token Design": 16,
+      "Blockchain Infrastructure & Development": 7,
+      "FinTech & Traditional Finance": 7,
+      "Machine Learning & AI Applications": 1,
+      "Insurance & Risk Management": 1,
+      "Food Safety & Traceability": 1,
+      "Travel & Tourism": 1,
+      "Accounting & Bookkeeping": 1,
+      "Accounting & Financial Systems": 1,
+      "Energy & Sustainability": 2,
+      "Game Theory & Mechanism Design": 1,
+      "Stablecoins & CBDCs": 1,
+      "Smart Contract Security & Vulnerabilities": 3,
+      "Security & Cryptography": 6,
+      "Digital Identity & Authentication": 2,
+      "Network Analysis & Graph Theory": 3,
+      "Healthcare & Digital Health": 3,
+      "IoT & Edge Computing": 1,
+      "Scalability & Performance Optimization": 3,
+      "Consensus Mechanisms & Protocols": 3,
+      "Zero-Knowledge Proofs & Privacy": 1,
+      "Cross-Chain & Interoperability": 1,
+      "Payment Systems & Settlement": 1
+    },
+    "university_distribution": {
+      "UCL": 31,
+      "University of Tokyo": 5,
+      "University of North Carolina": 1,
+      "CMU": 3,
+      "Duke University": 1,
+      "Kyoto University": 2,
+      "University of Sao Paulo": 4,
+      "Indian Institute of Technology Hyderabad": 2,
+      "Stanford": 1
+    },
+    "years_covered": [
+      2019.0,
+      2020.0,
+      2021.0,
+      2022.0
+    ]
+  },
+  "classified_papers": [
+    {
+      "is_blockchain_related": true,
+      "primary_category": "RWA (Real World Assets)",
+      "secondary_category": "Governance & DAOs",
+      "tertiary_category": "Supply Chain & Logistics",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses the commercialization of blockchain technology and its strategic applications in real-world scenarios, which aligns closely with the category of Real World Assets. Additionally, it touches on governance aspects and potential applications in supply chain logistics.",
+      "paper_id": "1",
+      "title": "Commercializing Blockchain: Strategic Applications in the Real World",
+      "authors": "Antony Welfare",
+      "university": "UCL",
+      "year": 2019.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Regulation & Legal Analysis",
+      "tertiary_category": "Governance & DAOs",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the economic implications of cryptocurrencies, making it primarily related to Cryptocurrency Economics & Market Analysis. It also touches on policy-making and governance aspects, which justifies the secondary and tertiary categories.",
+      "paper_id": "2",
+      "title": "The Economics of Cryptocurrencies",
+      "authors": "J. Mark Munoz, Michael Frenkel",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": false,
+      "primary_category": null,
+      "secondary_category": null,
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "low",
+        "secondary": "low",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The title and provided information do not indicate a direct relation to blockchain technology or its applications.",
+      "paper_id": "3",
+      "title": "Effectiveness of Markets and Policies",
+      "authors": "Fukuda",
+      "university": "University of Tokyo",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": false,
+      "primary_category": null,
+      "secondary_category": null,
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "low",
+        "secondary": "low",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on technological advancement and the Japanese economy, which does not directly relate to blockchain technology or any of the specified categories.",
+      "paper_id": "4",
+      "title": "Technological Advancement and Japanese Economy",
+      "authors": "Fukuda",
+      "university": "University of Tokyo",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "DeFi (Decentralized Finance)",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on liquidations within decentralized finance protocols, specifically analyzing the behavior of participants in the context of overcollateralization and liquidation risks, which are central themes in DeFi. The secondary category relates to the economic implications of token design and incentives in these protocols, while the tertiary category addresses the regulatory aspects of liquidation risks and participant behavior.",
+      "paper_id": "5",
+      "title": "Liquidations: DeFi on a Knife-edge",
+      "authors": "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Tokenomics & Token Design",
+      "secondary_category": "Cryptocurrency Economics & Market Analysis",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the functions of digital tokens and their relationship with market prices, which aligns closely with tokenomics. It also touches on economic implications and regulatory aspects, justifying the secondary and tertiary categories.",
+      "paper_id": "6",
+      "title": "Assets on the blockchain: An empirical study of Tokenomics",
+      "authors": "Yuen C.Lo, Francesca Medda",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": false,
+      "primary_category": null,
+      "secondary_category": null,
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "low",
+        "secondary": "low",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the relationship between social media sentiment and stock market prices, which does not directly relate to blockchain technology or its applications.",
+      "paper_id": "7",
+      "title": "s",
+      "authors": "Roberta Scaramozzino, Paola Cerchiello, Tomaso Aste",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Regulation & Legal Analysis",
+      "secondary_category": "Supply Chain & Logistics",
+      "tertiary_category": "Blockchain Infrastructure & Development",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on auditing trading activities and regulatory compliance using blockchain technology, which aligns closely with regulation and legal analysis. It also touches on aspects of supply chain logistics in the context of trading and auditing processes, and discusses the development of a blockchain infrastructure for this purpose.",
+      "paper_id": "8",
+      "title": "AuditChain: A Trading Audit Platform Over Blockchain",
+      "authors": "Guy R. Vishnia, Gareth W. Peters",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "FinTech & Traditional Finance",
+      "secondary_category": "Machine Learning & AI Applications",
+      "tertiary_category": "Insurance & Risk Management",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses the impact of AI and data science on insurance markets, which falls under FinTech. It also touches on the use of blockchain technologies in this context, linking it to Machine Learning applications. However, the focus is primarily on insurance rather than blockchain itself.",
+      "paper_id": "9",
+      "title": "Algorithms in future insurance markets",
+      "authors": "Małgorzata Śmietanka, Adriano Koshiyama, Philip Treleaven",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the economic implications of token offerings (ICOs) and the moral hazard associated with signaling in entrepreneurial finance, which aligns closely with cryptocurrency economics. It also touches on aspects of token design and regulatory concerns due to the exaggeration of information by token issuers.",
+      "paper_id": "10",
+      "title": "Entrepreneurial Finance and Moral Hazard: Evidence from Token Offerings",
+      "authors": "Paul P. Momtaz",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Governance & DAOs",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on initial coin offerings (ICOs) and the economic implications of CEO loyalty in the context of asymmetric information, which aligns closely with cryptocurrency economics and market analysis. It also touches on aspects of token design and governance due to the nature of ICOs and agency conflicts.",
+      "paper_id": "11",
+      "title": "Initial coin offerings, asymmetric information, and loyal CEOs",
+      "authors": "Paul P. Momtaz",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Governance & DAOs",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the impact of CEO emotions on firm valuation during initial coin offerings (ICOs), which relates directly to cryptocurrency economics. It also touches on aspects of token design and governance as it discusses how CEO affects influence investor perceptions and firm value.",
+      "paper_id": "12",
+      "title": "CEO emotions and firm valuation in initial coin offerings: An artificial emotional intelligence approach",
+      "authors": "Paul P. Momtaz",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Supply Chain & Logistics",
+      "secondary_category": "Food Safety & Traceability",
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the application of blockchain technology in food traceability, which directly relates to supply chain and logistics. It also touches on consumer trust and food safety, but these are secondary aspects.",
+      "paper_id": "13",
+      "title": "The influence of blockchain-based food traceability on retailer choice: The mediating role of trust",
+      "authors": "Marion Garaus, Horst Treiblmaier",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Travel & Tourism",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the adoption of cryptocurrencies in the travel and tourism sector, analyzing travelers' intentions and experiences, which aligns it primarily with Cryptocurrency Economics & Market Analysis. It also touches on aspects of DeFi as it discusses the use of cryptocurrencies as a payment method, but the specific context of travel and tourism is less commonly categorized in existing blockchain categories.",
+      "paper_id": "14",
+      "title": "Cryptocurrency adoption in travel and tourism – an exploratory study of Asia Pacific travellers",
+      "authors": "Horst Treiblmaier, Daniel Leung, Andrei O. J. Kwok, Aaron Tham",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": false,
+      "primary_category": null,
+      "secondary_category": null,
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "low",
+        "secondary": "low",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on sustainable consumption and value-sensitive design, which does not directly relate to blockchain technology or any of the existing categories.",
+      "paper_id": "15",
+      "title": "How value-sensitive design can empower sustainable consumption",
+      "authors": "Thomas Asikis, Johannes Klinglmayr, Dirk Helbing, Evangelos Pournaras",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "FinTech & Traditional Finance",
+      "secondary_category": "Cryptocurrency Economics & Market Analysis",
+      "tertiary_category": "Governance & DAOs",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper analyzes fintech terms and their evolution in news and blogs, which relates closely to the FinTech sector. It also touches on the economic aspects of fintech companies, linking it to cryptocurrency economics. Governance aspects may be relevant due to the nature of fintech companies operating in a regulated environment.",
+      "paper_id": "16",
+      "title": "Dynamics of fintech terms in news and blogs and specialization of companies of the fintech industry",
+      "authors": "Fabio Ciulla, Rosario N. Mantegna",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Governance & DAOs",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses the impact of analyst ratings on the success of ICOs, which falls under cryptocurrency economics and market analysis. It also touches on token returns and the incentives of analysts, linking it to tokenomics. Governance aspects are considered due to the role of analysts in the ICO process.",
+      "paper_id": "17",
+      "title": "The Wisdom of Crowds in FinTech: Evidence from Initial Coin Offerings (OLD VERSION)",
+      "authors": "Jongsub Lee, Tao Li, Donghwa Shin",
+      "university": "University of North Carolina",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the relationship between Bitcoin spot and futures markets, which falls under cryptocurrency economics and market analysis. It also touches on aspects of decentralized finance through arbitrage opportunities, while tokenomics is relevant due to the discussion of Bitcoin price movements.",
+      "paper_id": "18",
+      "title": "The relationship between arbitrage in futures and spotmarkets and Bitcoin price movements: Evidence from theBitcoin markets",
+      "authors": "Takahiro Hattori, Ryo Ishida",
+      "university": "University of Tokyo",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper analyzes the impact of Bitcoin futures on the Bitcoin market, which falls under cryptocurrency economics and market analysis. It also touches on aspects of tokenomics related to futures trading. Regulation and legal analysis is a tertiary category due to the implications of futures as a financial instrument.",
+      "paper_id": "19",
+      "title": "Did the introduction of Bitcoin futures crash the Bitcoin market at the end of 2017?",
+      "authors": "Takahiro Hattori, Ryo Ishida",
+      "university": "University of Tokyo",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Accounting & Bookkeeping",
+      "secondary_category": "Blockchain Infrastructure & Development",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses triple-entry accounting in the context of blockchain, which relates to accounting and bookkeeping practices. It also touches on the infrastructure of blockchain technology and the need for standardization, which aligns with development and regulatory aspects.",
+      "paper_id": "20",
+      "title": "Triple-entry Accounting, Blockchain and Next of Kin: Towards a Standardization of Ledger Terminology",
+      "authors": "Juan Ignacio Ibañez, Chris N. Bayer, Paolo Tasca, Jiahua Xu",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Supply Chain & Logistics",
+      "secondary_category": "FinTech & Traditional Finance",
+      "tertiary_category": "Blockchain Infrastructure & Development",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses the application of triple-entry accounting using blockchain technology, focusing on its impact on accounting inefficiencies, particularly in logistics and supply chains. It also touches on financial aspects, thus linking it to FinTech.",
+      "paper_id": "21",
+      "title": "The Efficiency of Single Truth: Triple-entry Accounting",
+      "authors": "Juan Ignacio Ibañez, Chris N. Bayer, Paolo Tasca, Jiahua Xu",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Blockchain Infrastructure & Development",
+      "secondary_category": "Accounting & Financial Systems",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses the evolution of shared ledger systems, specifically focusing on the intersection of blockchain technology with accounting frameworks like REA and TEA, which aligns closely with blockchain infrastructure and development. The secondary category reflects its relevance to accounting systems, while the tertiary category considers potential regulatory implications.",
+      "paper_id": "22",
+      "title": "REA, Triple-Entry Accounting and Blockchain: Converging Paths to Shared Ledger Systems",
+      "authors": "Juan Ignacio Ibañez, Chris N. Bayer, Paolo Tasca, Jiahua Xu",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "DeFi (Decentralized Finance)",
+      "secondary_category": "FinTech & Traditional Finance",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the evolution of lending markets within the DeFi ecosystem, making DeFi the primary category. It also discusses the relationship between traditional finance and DeFi, justifying its classification under FinTech. The mention of challenges in traditional money markets suggests some regulatory considerations, hence the tertiary category.",
+      "paper_id": "23",
+      "title": "From Banks to DeFi: The Evolution of the Lending Market",
+      "authors": "Jiahua Xu, Nikhil Vadgama",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Energy & Sustainability",
+      "secondary_category": "Regulation & Legal Analysis",
+      "tertiary_category": "Supply Chain & Logistics",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses peer-to-peer energy trading, which is closely related to blockchain technology and sustainability in the energy sector. It also addresses regulatory aspects, making it relevant to legal analysis. Supply chain considerations are included as energy distribution can be seen as part of a broader logistical framework.",
+      "paper_id": "24",
+      "title": "Peer-to-Peer Energy Trading and the Sharing Economy: Social, Markets and Regulatory Perspectives",
+      "authors": "Alexandra Schneiders, Michael Fell, Colin Nolden",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": false,
+      "primary_category": "",
+      "secondary_category": "",
+      "tertiary_category": "",
+      "confidence_levels": {
+        "primary": "low",
+        "secondary": "low",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on market shocks and systemic risk in traditional financial markets, specifically the FTSE, and does not address blockchain technology or its applications.",
+      "paper_id": "25",
+      "title": "An Information Filtering approach to stress testing: an application to FTSE markets",
+      "authors": "Isobel Seabrook, Fabio Caccioli, Tomaso Aste",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "RWA (Real World Assets)",
+      "secondary_category": "FinTech & Traditional Finance",
+      "tertiary_category": "Governance & DAOs",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on using blockchain technology to improve the issuance process of green bonds, which are considered real-world assets. It also touches on aspects of finance and governance through regulatory compliance and decentralized authority.",
+      "paper_id": "26",
+      "title": "A blockchain framework for increased trust in green bonds issuance",
+      "authors": "Vangelis Malamas, Thomas K. Dasaklis, Veni Arakelian, Gregory Chondrokoukis",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": "Game Theory & Mechanism Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the empirical analysis of Bitcoin's market dynamics and pricing mechanisms, which aligns closely with cryptocurrency economics and market analysis. It also touches on aspects of tokenomics through its examination of Bitcoin's fundamental value and price determination.",
+      "paper_id": "27",
+      "title": "The Empirical Analysis of Bitcoin Market in the General Equilibrium Framework",
+      "authors": "Jun Aoyagi, Takahiro Hattori",
+      "university": "University of Tokyo",
+      "year": 2019.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses institutional investment in Ethereum, which relates closely to market analysis and economic aspects of cryptocurrencies. It also touches on decentralized finance as institutional interest can influence DeFi markets. Tokenomics is relevant but less central.",
+      "paper_id": "28",
+      "title": "THE RISE OF INSTITUTIONAL ETHEREUM INVESTORS",
+      "authors": "Alexander S. Blum, Nathan Cox, Marc J. Fleury",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "Tokenomics & Token Design",
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The title 'Market Orders' suggests a focus on trading mechanisms within cryptocurrency markets, which aligns with economic analysis and token design.",
+      "paper_id": "29",
+      "title": "Market Orders",
+      "authors": "Sukhi Jutla",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Stablecoins & CBDCs",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Smart Contract Security & Vulnerabilities",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on currency stability using blockchain technology, specifically addressing stablecoins and their price stabilization mechanisms. It also touches on decentralized finance concepts and the implementation of smart contracts on the Ethereum network.",
+      "paper_id": "30",
+      "title": "Currency stability using blockchian technology",
+      "authors": "Ariel Zetlin-Jones and Bryan Routledge",
+      "university": "CMU",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the analysis of cryptocurrency derivatives, specifically through the case study of BitMEX, which falls under the economics and market analysis of cryptocurrencies. It also touches on decentralized finance aspects due to the nature of derivatives trading.",
+      "paper_id": "31",
+      "title": "Toward Understanding Cryptocurrency Derivatives: A Case Study of BitMEX",
+      "authors": "Ariel Zetlin-Jones, Bryan Routledge, and Nicolas Christin",
+      "university": "CMU",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Security & Cryptography",
+      "secondary_category": "Smart Contract Security & Vulnerabilities",
+      "tertiary_category": "Digital Identity & Authentication",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on enhancing security in cryptocurrencies through cryptographic techniques and two-factor authentication, which aligns closely with Security & Cryptography. It also addresses smart contract implementations for security, thus fitting into Smart Contract Security & Vulnerabilities. Additionally, the aspect of user authentication relates to Digital Identity & Authentication.",
+      "paper_id": "32",
+      "title": "Cryptocurrencies with Security Policies and Two-Factor Authentication",
+      "authors": "Florian Breuer, Vipul Goyal, Giulio Malavolta",
+      "university": "CMU",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "DeFi (Decentralized Finance)",
+      "secondary_category": "FinTech & Traditional Finance",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on Decentralized Finance (DeFi) and its impact on the financial landscape, making it primarily related to the DeFi category. It also touches on aspects of traditional finance, hence the secondary category. Tokenomics is relevant as it discusses the economic implications of DeFi.",
+      "paper_id": "33",
+      "title": "DeFi and the Future of Finance",
+      "authors": "Campbell R. Harvey, Ashwin Ramachandran, Joey Santoro, Fred Ehrsam (Foreword by), Vitalik Buterin (Preface By)",
+      "university": "Duke University",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Network Analysis & Graph Theory",
+      "secondary_category": "Cryptocurrency Economics & Market Analysis",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on analyzing bitcoin blockchain data and network properties, which aligns closely with network analysis. It also touches on economic aspects by examining the flow of bitcoin and identifying financial institutions, thus fitting into cryptocurrency economics. The mention of identifying real-world entities suggests a potential regulatory angle, albeit less emphasized.",
+      "paper_id": "34",
+      "title": "Unfolding identity of financial institutions in bitcoin blockchain by weekly pattern of network flows",
+      "authors": "Rubaiyat Islam, Yoshi Fujiwara, Shinya Kawata, and Hiwon Yoon,",
+      "university": "Kyoto University",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "RWA (Real World Assets)",
+      "secondary_category": "Energy & Sustainability",
+      "tertiary_category": "Supply Chain & Logistics",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses a biobank leveraging rainforest biodiversity, which aligns with the concept of real-world assets. Additionally, it touches on sustainability, linking it to energy and environmental concerns, and may involve supply chain aspects related to biodiversity management.",
+      "paper_id": "35",
+      "title": "Amazon Biobank: sustainable development built upon rainforest's biodiversity",
+      "authors": "Leonardo Kimura, Ewerton Andrade, Tereza Carvalho, Marcos Simplicio Junior",
+      "university": "University of Sao Paulo",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "RWA (Real World Assets)",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Supply Chain & Logistics",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses a micropayment system integrated with a file-sharing protocol, which relates to real-world applications of blockchain technology. It also touches on economic incentives, aligning it with DeFi concepts, while the file-sharing aspect can be linked to logistics.",
+      "paper_id": "36",
+      "title": "Torrente, a micropayment based Bittorrent extension to mitigate free riding",
+      "authors": "Felipe Shiaraishi, Vitor Perles, Hector Yassuda, Leonardo Kimura, Ewerton Andrade, Marcos Simoplicio Junior",
+      "university": "University of Sao Paulo",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Healthcare & Digital Health",
+      "secondary_category": "RWA (Real World Assets)",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses the use of blockchain technology to create a community-based genetic database, which falls under healthcare and digital health. It also touches on the concept of real-world assets by dealing with genetic data and proposes monetary incentives, linking it to tokenomics.",
+      "paper_id": "37",
+      "title": "Amazon Biobank - A community-based genetic database",
+      "authors": "Leonardo Kimura, Ewerton Andrade, Tereza Carvalho, Marcos Simplicio Junior",
+      "university": "University of Sao Paulo",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Digital Identity & Authentication",
+      "secondary_category": "Security & Cryptography",
+      "tertiary_category": "Regulation & Legal Analysis",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses Certificate Transparency and the verification of Certificate Authorities, which relates closely to digital identity and authentication. It also touches on security aspects of digital certificates, hence the secondary category. The legal implications of certificate issuance and fraud detection suggest a tertiary relevance to regulation.",
+      "paper_id": "38",
+      "title": "Domain Transparency: Improved Auditability for Certificate Transparency Services",
+      "authors": "Fernando Matsumoto, Jonatas Viana da Silva, Marcos Simplicio Junior",
+      "university": "University of Sao Paulo",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "IoT & Edge Computing",
+      "secondary_category": "Security & Cryptography",
+      "tertiary_category": "Blockchain Infrastructure & Development",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on using blockchain technology for authentication in an IoT-enabled agricultural environment, which primarily relates to IoT applications. It also addresses security aspects through the proposed authentication scheme, linking it to security and cryptography. The blockchain infrastructure is involved but is not the main focus.",
+      "paper_id": "39",
+      "title": "Private blockchain-envisioned drones-assisted authentication scheme in IoT enabled agricultural environment",
+      "authors": "Basudeb Bera, Anusha Vangala, Ashok Kumar Das, Pascal Lorenz, and Muhammad Khurram Khan",
+      "university": "Indian Institute of Technology Hyderabad",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Supply Chain & Logistics",
+      "secondary_category": "Healthcare & Digital Health",
+      "tertiary_category": "Security & Cryptography",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "high",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on using blockchain for secure vaccine distribution and tracking within the healthcare sector, specifically in the context of COVID-19, which aligns it closely with supply chain logistics and healthcare applications. Security aspects are also emphasized due to the nature of the framework proposed.",
+      "paper_id": "40",
+      "title": "AI and Blockchain-Based Cloud Assisted Secure Vaccine Distribution and Tracking in IoMT-Enabled COVID-19 Environment",
+      "authors": "Ashok Kumar Das, Basudeb Bera, and Debasis Giri",
+      "university": "Indian Institute of Technology Hyderabad",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "DeFi (Decentralized Finance)",
+      "secondary_category": "Governance & DAOs",
+      "tertiary_category": "Blockchain Infrastructure & Development",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses distributed ledger technology as an enabler of the Internet of Value, which is closely related to DeFi. It also touches on governance aspects and the infrastructure necessary for implementing these technologies.",
+      "paper_id": "41",
+      "title": "Enabling the Internet of Value: How Blockchain Connects Global Businesses",
+      "authors": "Nikhil Vadgama, Jiahua Xu, Paolo Tasca",
+      "university": "UCL",
+      "year": 2021.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "RWA (Real World Assets)",
+      "secondary_category": "Supply Chain & Logistics",
+      "tertiary_category": "Healthcare & Digital Health",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses various real-world applications of blockchain technology across multiple industries, including financial markets, energy, supply chain management, and healthcare, making it relevant to the RWA category and others.",
+      "paper_id": "42",
+      "title": "Blockchain and Distributed Ledger Technology Use Cases, application",
+      "authors": "Horst Treiblmaier, Trevor Clohessy",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cryptocurrency Economics & Market Analysis",
+      "secondary_category": "FinTech & Traditional Finance",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper discusses insights and observations about the crypto field, focusing on its applications in the financial system, which aligns closely with Cryptocurrency Economics & Market Analysis. It also draws parallels with traditional finance, justifying its classification under FinTech. Tokenomics is relevant due to the discussion of concepts of money and investment strategies.",
+      "paper_id": "43",
+      "title": "Understanding Crypto Today",
+      "authors": "Alexander Blum",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Network Analysis & Graph Theory",
+      "secondary_category": "Cryptocurrency Economics & Market Analysis",
+      "tertiary_category": "Tokenomics & Token Design",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the analysis of XRP transactions using network analysis techniques, which aligns it closely with network analysis and graph theory. Additionally, it touches on aspects of cryptocurrency economics and market analysis due to its focus on a specific crypto-asset.",
+      "paper_id": "44",
+      "title": "Characterization of XRP crypto-asset transactions using network analysis",
+      "authors": "Yuichi Ikeda",
+      "university": "Kyoto University",
+      "year": 2022.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Scalability & Performance Optimization",
+      "secondary_category": "Network Analysis & Graph Theory",
+      "tertiary_category": "Consensus Mechanisms & Protocols",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on the scalability of high-profile blockchains and analyzes their transactional throughput, which directly relates to scalability and performance. It also examines network traffic patterns, fitting into network analysis, and discusses consensus mechanisms as part of the blockchain design.",
+      "paper_id": "45",
+      "title": "Revisiting Transactional Statistics of High-scalability Blockchains",
+      "authors": "Benjamin Livshits, Daniel Perez, Jiahua Xu",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": false,
+      "primary_category": null,
+      "secondary_category": null,
+      "tertiary_category": null,
+      "confidence_levels": {
+        "primary": "low",
+        "secondary": "low",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on differential cryptanalysis and block ciphers, which are related to cryptography but not specifically to blockchain technology or its applications.",
+      "paper_id": "46",
+      "title": "Can a Differential Attack Work for an Arbitrarily Large Number of Rounds?",
+      "authors": "Nicolas T. Courtois, Jean-Jacques Quisquater",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Zero-Knowledge Proofs & Privacy",
+      "secondary_category": "Security & Cryptography",
+      "tertiary_category": "Blockchain Infrastructure & Development",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "low"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on proof-carrying data (PCD) and its construction without relying on succinct non-interactive arguments (SNARKs), which directly relates to zero-knowledge proofs and cryptographic security. The secondary category reflects its implications for security and cryptography, while the tertiary category pertains to its relevance in blockchain infrastructure.",
+      "paper_id": "47",
+      "title": "Proof-Carrying Data without Succinct Arguments",
+      "authors": "Benedikt Bunz, Alessandro Chiesa, William Lin, Pratyush Mishra, Nicholas Spooner",
+      "university": "Stanford",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Cross-Chain & Interoperability",
+      "secondary_category": "DeFi (Decentralized Finance)",
+      "tertiary_category": "Smart Contract Security & Vulnerabilities",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "medium",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on facilitating decentralized exchanges of cryptocurrencies, which involves cross-chain trading and interoperability between different market services. It also touches on aspects of decentralized finance and the security of smart contracts used in the exchange process.",
+      "paper_id": "48",
+      "title": "Facilitating the Decentralised Exchange of Cryptocurrencies in an Order-Driven Market",
+      "authors": "Moritz Platt, Francesco Pierangeli, Giacomo Livan, Simone Righi",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Consensus Mechanisms & Protocols",
+      "secondary_category": "Security & Cryptography",
+      "tertiary_category": "Scalability & Performance Optimization",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "high",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on replay attacks in sharded distributed ledgers and proposes a new consensus protocol, which directly relates to consensus mechanisms. It also addresses security vulnerabilities and performance implications, justifying the secondary and tertiary categories.",
+      "paper_id": "49",
+      "title": "Replay Attacks and Defenses Against Cross-shard Consensus in Sharded Distributed Ledgers",
+      "authors": "Alberto Sonnino, Shehar Bano, Mustafa Al-Bassam, George Danezis",
+      "university": "UCL",
+      "year": 2020.0
+    },
+    {
+      "is_blockchain_related": true,
+      "primary_category": "Consensus Mechanisms & Protocols",
+      "secondary_category": "Scalability & Performance Optimization",
+      "tertiary_category": "Payment Systems & Settlement",
+      "confidence_levels": {
+        "primary": "high",
+        "secondary": "high",
+        "tertiary": "medium"
+      },
+      "new_categories_suggested": [],
+      "reasoning": "The paper focuses on a Byzantine Fault Tolerant settlement system, which falls under consensus mechanisms. It also emphasizes high performance and scalability, making it relevant to performance optimization. The application to payment systems further supports its classification.",
+      "paper_id": "50",
+      "title": "FastPay: High-Performance Byzantine Fault Tolerant Settlement",
+      "authors": "Mathieu Baudet, George Danezis, Alberto Sonnino",
+      "university": "UCL",
+      "year": 2020.0
+    }
+  ]
+}

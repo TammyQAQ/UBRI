@@ -1,0 +1,93 @@
+IMPROVED UBRI Paper Classification Summary Report
+============================================================
+
+Total Papers Processed: 697
+Blockchain Related Papers: 587
+Not Blockchain Related: 110
+Classification Date: 2025-08-05T16:09:31.217914
+Categories Used: 29
+Years Covered: [nan, 2017.0, 2018.0, 2019.0, 2020.0, 2021.0, 2022.0, 2023.0, nan, 2024.0, nan, nan, 2025.0, nan]
+
+CATEGORY DISTRIBUTION (Top 15):
+----------------------------------------
+ 1. Security & Cryptography: 168 papers (28.6%)
+ 2. Smart Contract Security & Vulnerabilities: 132 papers (22.5%)
+ 3. Consensus Mechanisms & Protocols: 129 papers (22.0%)
+ 4. Regulation & Legal Analysis: 121 papers (20.6%)
+ 5. Cryptocurrency Economics & Market Analysis: 120 papers (20.4%)
+ 6. Blockchain Infrastructure & Development: 95 papers (16.2%)
+ 7. DeFi (Decentralized Finance): 92 papers (15.7%)
+ 8. Governance & DAOs: 91 papers (15.5%)
+ 9. Tokenomics & Token Design: 91 papers (15.5%)
+10. Digital Identity & Authentication: 84 papers (14.3%)
+11. Scalability & Performance Optimization: 77 papers (13.1%)
+12. Network Analysis & Graph Theory: 66 papers (11.2%)
+13. IoT & Edge Computing: 54 papers (9.2%)
+14. FinTech & Traditional Finance: 44 papers (7.5%)
+15. Academic Research & Methodology: 42 papers (7.2%)
+
+TOP UNIVERSITIES (Top 10):
+------------------------------
+ 1. UCL: 111 papers
+ 2. University of Oregon: 33 papers
+ 3. IIIT-H: 30 papers
+ 4. Stanford: 24 papers
+ 5. Delft University of Technology: 24 papers
+ 6. USP: 23 papers
+ 7. IIIT Hyderabad: 21 papers
+ 8. CMU: 20 papers
+ 9. University of Sao Paulo: 20 papers
+10. University of Waterloo: 16 papers
+
+SAMPLE PAPERS BY CATEGORY:
+------------------------------
+
+Security & Cryptography:
+  - Cryptocurrencies with Security Policies and Two-Factor Authentication (CMU)
+  - LEAP: Leakage-Abuse Attack on Efficiently Deployable, Efficiently Searchable Encryption with Partially Known Dataset (University of Oregon)
+  - Policy-based Chameleon Hash for Blockchain Rewriting with Black-box Accountability (University of Oregon)
+
+Smart Contract Security & Vulnerabilities:
+  - Compositional Security for Reentrant Applications (Cornell University)
+  - A formal model of Algorand smart contracts (UCL)
+  - A Language-Based Approach to Smart Contract Engineering (Berkeley)
+
+Consensus Mechanisms & Protocols:
+  - Replay Attacks and Defenses Against Cross-shard Consensus in Sharded Distributed Ledgers (UCL)
+  - FastPay: High-Performance Byzantine Fault Tolerant Settlement (UCL)
+  - Winkle: Foiling Long-Range Attacks in Proof-of-Stake Systems (UCL)
+
+Regulation & Legal Analysis:
+  - AuditChain: A Trading Audit Platform Over Blockchain (UCL)
+  - VaVite: Verifiable Information Exchange for Virtual Asset Service Providers (University of Luxembourg)
+  - Effective Cryptocurrency Regulation Through Blacklisting (Princeton University)
+
+Cryptocurrency Economics & Market Analysis:
+  - The Economics of Cryptocurrencies (UCL)
+  - Entrepreneurial Finance and Moral Hazard: Evidence from Token Offerings (UCL)
+  - Initial coin offerings, asymmetric information, and loyal CEOs (UCL)
+
+Blockchain Infrastructure & Development:
+  - REA, Triple-Entry Accounting and Blockchain: Converging Paths to Shared Ledger Systems (UCL)
+  - Unveiling the Importance and Evolution of Design Components Through the “Tree of Blockchain” (UCL)
+  - Decrypting distributed ledger design—taxonomy, classification and blockchain community evaluation (UCL)
+
+DeFi (Decentralized Finance):
+  - Liquidations: DeFi on a Knife-edge (UCL)
+  - From Banks to DeFi: The Evolution of the Lending Market (UCL)
+  - DeFi and the Future of Finance (Duke University)
+
+Governance & DAOs:
+  - A blockchain-based trust system for decentralised applications: When trustless needs trust (UCL)
+  - Crowd Arbitration: Blockchain Dispute Resolution (UCL)
+  - Internet of Value: A Risky Necessity (UCL)
+
+Tokenomics & Token Design:
+  - Assets on the blockchain: An empirical study of Tokenomics (UCL)
+  - Digital Finance and Tokenisation (Victoria University)
+  - Tokenomics Impact on User Behavior: Observations from NFT-Collateralized Lending Platforms (CMU)
+
+Digital Identity & Authentication:
+  - Domain Transparency: Improved Auditability for Certificate Transparency Services (University of Sao Paulo)
+  - A New Framework for Privacy-Preserving Biometric-Based Remote User Authentication (University of Oregon)
+  - Leakage-resilient biometric-based remote user authentication with fuzzy extractors (University of Oregon)
