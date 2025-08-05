@@ -1,0 +1,144 @@
+UBRI Paper Classification Summary Report
+==================================================
+
+Total Papers Classified: 496
+Classification Date: 2025-07-30T13:22:59.350358
+Universities Represented: 63
+Years Covered: [2017.0, 2018.0, 2019.0, 2020.0, 2021.0, 2022.0, 2023.0, 2024.0, 2025.0]
+
+Category Distribution:
+------------------------------
+Other: 144 papers (29.0%)
+Consensus Mechanisms & Protocols: 46 papers (9.3%)
+Cryptocurrency Economics & Market Analysis: 45 papers (9.1%)
+Security & Cryptography: 33 papers (6.7%)
+DeFi (Decentralized Finance): 29 papers (5.8%)
+FinTech & Traditional Finance: 24 papers (4.8%)
+Regulation & Legal Analysis: 23 papers (4.6%)
+Zero-Knowledge Proofs & Privacy: 21 papers (4.2%)
+Stablecoins & CBDCs: 19 papers (3.8%)
+Smart Contract Security & Vulnerabilities: 19 papers (3.8%)
+Scalability & Performance Optimization: 17 papers (3.4%)
+Healthcare & Digital Health: 17 papers (3.4%)
+RWA (Real World Assets): 15 papers (3.0%)
+Governance & DAOs: 11 papers (2.2%)
+Network Analysis & Graph Theory: 10 papers (2.0%)
+Game Theory & Mechanism Design: 8 papers (1.6%)
+Cross-Chain & Interoperability: 5 papers (1.0%)
+Supply Chain & Logistics: 5 papers (1.0%)
+Energy & Sustainability: 4 papers (0.8%)
+Machine Learning & AI Applications: 1 papers (0.2%)
+
+Top Universities by Paper Count:
+-----------------------------------
+UCL: 96 papers
+University of Oregon: 26 papers
+IIIT-H: 23 papers
+Delft University of Technology: 20 papers
+IIIT Hyderabad: 19 papers
+University of Sao Paulo: 18 papers
+CMU: 15 papers
+Waterloo: 15 papers
+University of Waterloo: 14 papers
+Stanford: 12 papers
+
+Sample Papers by Category:
+------------------------------
+
+DeFi (Decentralized Finance):
+  - Liquidations: DeFi on a Knife-edge (UCL)
+  - From Banks to DeFi: The Evolution of the Lending Market (UCL)
+  - DeFi and the Future of Finance (Duke University)
+
+Cryptocurrency Economics & Market Analysis:
+  - The Economics of Cryptocurrencies (UCL)
+  - Assets on the blockchain: An empirical study of Tokenomics (UCL)
+  - Information Theoretic Causality Detection between Financial and Sentiment Data (UCL)
+
+Stablecoins & CBDCs:
+  - Currency stability using blockchian technology (CMU)
+  - Central bank digital currencies: Part 2 (UCL)
+  - A Digital Currency Architecture for Privacy and Owner-Custodianship (UCL)
+
+RWA (Real World Assets):
+  - Commercializing Blockchain: Strategic Applications in the Real World (UCL)
+  - The influence of blockchain-based food traceability on retailer choice: The mediating role of trust (UCL)
+  - The Efficiency of Single Truth: Triple-entry Accounting (UCL)
+
+Smart Contract Security & Vulnerabilities:
+  - Compositional Security for Reentrant Applications (Cornell University)
+  - A formal model of Algorand smart contracts (UCL)
+  - A Language-Based Approach to Smart Contract Engineering (Berkeley)
+
+Consensus Mechanisms & Protocols:
+  - Replay Attacks and Defenses Against Cross-shard Consensus in Sharded Distributed Ledgers (UCL)
+  - FastPay: High-Performance Byzantine Fault Tolerant Settlement (UCL)
+  - Winkle: Foiling Long-Range Attacks in Proof-of-Stake Systems (UCL)
+
+Zero-Knowledge Proofs & Privacy:
+  - Proof-Carrying Data without Succinct Arguments (Stanford)
+  - Privacy-Preserving PayString Service (University of Luxembourg)
+  - Zero-Knowledge Succinct Arguments with a Linear-Time Prover (Berkeley)
+
+Scalability & Performance Optimization:
+  - Revisiting Transactional Statistics of High-scalability Blockchains (UCL)
+  - Towards a Framework for Understanding the Performance of Blockchains (University of Nicosia)
+  - Stability and Scalability of Blockchain Systems (University of Texas at Austin)
+
+Cross-Chain & Interoperability:
+  - Facilitating the Decentralised Exchange of Cryptocurrencies in an Order-Driven Market (UCL)
+  - Structural Attacks on Local Routing in Payment Channel Networks (Delft University of Technology)
+  - Comparative Analysis of Lightning's Routing Clients (Delft University of Technology)
+
+Network Analysis & Graph Theory:
+  - Characterization of XRP crypto-asset transactions using network analysis (Kyoto University)
+  - BlockSci: Design and applications of a blockchain analysis platform (Princeton University)
+  - Unveiling the Mystery of Internet Packet Forwarding: A Survey of Network Path Validation (University of Oregon)
+
+Game Theory & Mechanism Design:
+  - A Game-Theoretic Analysis of Cross-Chain Atomic Swaps with HTLCs (UCL)
+  - A Game-Theoretic Analysis of Cross-Ledger Swaps with Packetized Payments (UCL)
+  - SquirRL: Automating Attack Analysis on Blockchain Incentive Mechanisms with Deep Reinforcement Learning (CMU)
+
+Regulation & Legal Analysis:
+  - AuditChain: A Trading Audit Platform Over Blockchain (UCL)
+  - VaVite: Verifiable Information Exchange for Virtual Asset Service Providers (University of Luxembourg)
+  - Can Antitrust Trust Blockchain? (UCL)
+
+Security & Cryptography:
+  - Cryptocurrencies with Security Policies and Two-Factor Authentication (CMU)
+  - Can a Differential Attack Work for an Arbitrarily Large Number of Rounds? (UCL)
+  - Energy Efficiency Analysis of Post-Quantum Cryptographic Algorithms (University of Waterloo)
+
+Energy & Sustainability:
+  - The Cost of Bitcoin Mining Has Never Really Increased (UCL)
+  - The Energy Footprint of Blockchain Consensus Mechanisms Beyond Proof-of-Work (UCL)
+  - Energy Demand Unawareness and the Popularity of Bitcoin: Evidence from Nigeria (UCL/UK CBT)
+
+Healthcare & Digital Health:
+  - Lightweight Sharable and Traceable Secure Mobile Health System (University of Oregon)
+  - Private Blockchain-Based AI-Envisioned Home Monitoring Framework in IoMT-Enabled COVID 19 Environment (Indian Institute of Technology Hyderabad)
+  - HealthTech: Law and Regulation (UCL)
+
+Supply Chain & Logistics:
+  - AI and Blockchain-Based Cloud Assisted Secure Vaccine Distribution and Tracking in IoMT-Enabled COVID-19 Environment (Indian Institute of Technology Hyderabad)
+  - An Analysis of Blockchain Adoption in Supply Chains Between 2010 and 2020 (UCL)
+  - Blockchain Technology in the Food Industry: A Review of Potentials, Challenges and Future Research Directions (UCL)
+
+Governance & DAOs:
+  - Crowd Arbitration: Blockchain Dispute Resolution (UCL)
+  - Oraclised Data Schemas: Improving contractual Certainty in uncertain Times (UCL)
+  - Transactional Scripts in Contract Stacks (Princeton University)
+
+FinTech & Traditional Finance:
+  - Dynamics of fintech terms in news and blogs and specialization of companies of the fintech industry (UCL)
+  - None (UCL)
+  - Gamestonk: What Happened and What to Do about It (Georgetown)
+
+Machine Learning & AI Applications:
+  - Machine Learning and AI in Finance (UCL)
+
+Other:
+  - Algorithms in future insurance markets (UCL)
+  - Cryptocurrency adoption in travel and tourism – an exploratory study of Asia Pacific travellers (UCL)
+  - Triple-entry Accounting, Blockchain and Next of Kin: Towards a Standardization of Ledger Terminology (UCL)
